@@ -1,0 +1,185 @@
+body {
+  background-color: rgb(237, 250, 253)
+}
+
+main {
+  margin: 0px auto 50px auto;
+  text-align: center;
+  background-image: url('../images/header-fancy-blue.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  padding: 65px;
+  font-family: 'Ultra', serif;
+  font-size: 80px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+}
+
+h3 {
+  font-family: Arial;
+  font-weight: 500;
+  line-height: 1.29;
+  color: #27c19e;
+  padding-left: 5px
+}
+
+p {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.36;
+  text-align: left;
+  color: #4a4a4a;
+  padding-left: 5px;
+}
+
+form {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-family: 'Mansalva', cursive;
+  color: #2e688f;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 300px auto;
+  visibility: hidden;
+}
+
+.venue {
+  width: 275px;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: aliceblue;
+}
+
+.venueimage {
+  margin-top: 30px;
+}
+
+#venues h2 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 0.77;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#venues p {
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 0.77;
+  padding: 15px auto;
+}
+
+#destination {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #27b7c1;
+  margin: 20px auto;
+}
+
+.sectiontitle {
+  height: 70px;
+  width: 300px;
+  align-items: center;
+}
+
+.sectiontitle h2 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 3.4px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+#venues {
+  display: flex;
+  justify-content: space-around;
+  min-height: 300px;
+}
+
+#city, #category {
+  width: 400px;
+  height: 46px;
+  border-radius: 4px;
+  border: solid 2px #489fda;
+  background-color: inherit;
+  opacity: 0.73;
+  line-height: 2;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #2e688f;
+  font-family: 'Mansalva', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+#button {
+  width: 140px;
+  height: 66px;
+  border-radius: 4px;
+  background-color: #27b7c1;
+  font-family: 'Mansalva', cursive;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.94;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  margin: 35px;
+}
+
+@media (max-width: 860px) {
+  main {
+    background-image: url('../images/header-fancy-blue.jpg');
+  }
+
+  h1 {
+    padding-top: 80px;
+    font-size: 32px;
+  }
+
+  form {
+    margin-left: 30px;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  #venues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .venue {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+
+  .sectiontitle, .sectiontitle h2, #destination {
+    margin: auto;
+    text-align: center;
+  }
+}

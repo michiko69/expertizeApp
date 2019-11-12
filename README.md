@@ -1,4 +1,1 @@
 # Expertize
-# expertize
-# expertizeApp
-# expertizeApp
